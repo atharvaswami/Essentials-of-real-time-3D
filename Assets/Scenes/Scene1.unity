@@ -1545,7 +1545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf3a0f7e0f7fa74b8a85ebaf97455f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scaleChange: {x: 0.005, y: 0.005, z: 0.005}
+  scaleChange: {x: 0.01, y: 0.01, z: 0.01}
 --- !u!1 &1673621711
 GameObject:
   m_ObjectHideFlags: 0
@@ -1558,6 +1558,7 @@ GameObject:
   - component: {fileID: 1673621715}
   - component: {fileID: 1673621714}
   - component: {fileID: 1673621713}
+  - component: {fileID: 1673621716}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -1651,6 +1652,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1673621711}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1673621716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673621711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3176d2124045c284abccf1270194a184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionChange: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1796967343
 GameObject:
   m_ObjectHideFlags: 0
